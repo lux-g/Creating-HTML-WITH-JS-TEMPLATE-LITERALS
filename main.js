@@ -1,3 +1,8 @@
+const btnAdd = document.querySelector('.btn-add');
+
+btnAdd.addEventListener('click', ()=> {
+
+
 const product = {
     name: 't-shirt',
     about: 'color black',
@@ -37,3 +42,5 @@ const cartMenu = document.querySelector('.cart-menu');
 const bottomCart = document.querySelector('.bottom-cart');
 
 cartMenu.insertBefore(cartItem, bottomCart);
+
+});
