@@ -1,7 +1,7 @@
 const btnAdd = document.querySelector('.btn-add');
 
 btnAdd.addEventListener('click', ()=> {
-
+    btnAdd.style.display = 'none';
 
 const product = {
     name: 't-shirt',
